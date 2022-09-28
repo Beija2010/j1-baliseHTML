@@ -1,3 +1,22 @@
-.red{
+.red {
     color: rgb(207, 43, 43);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color: rgb(47, 154, 255);
+}
+
+a.over {
+    color: black;
+    background: orange;
+    text-decoration: underline;
 }

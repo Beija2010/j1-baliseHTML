@@ -1,0 +1,23 @@
+p{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+#baseline{
+    border: 2px black;
+}
+h2,span{
+    background: orange;
+    font-weight: bold;
+}
+*{
+    font-size: 20px;
+}
+p strong{
+    color: black;
+}
+i{
+    color: blueviolet;
+}

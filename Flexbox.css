@@ -1,0 +1,49 @@
+section div {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgb(26, 17, 17);
+}
+
+div:first-of-type {
+    background: red;
+}
+
+div:nth-last-child(2) {
+    background: yellow;
+}
+
+div:last-of-type {
+    background: green;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+}
